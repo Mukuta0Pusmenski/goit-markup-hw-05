@@ -712,4 +712,35 @@ a::after{
     display: block;
     margin-bottom: 4px;
 }
+
+.modal-window-div{
+    position: relative;
+}
+
+.modal-window-div-imput{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window-div-imput:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-window-div-svg{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window-div-svg:focus {
+    fill: #4D5AE5;
+}
 /* -=- */
