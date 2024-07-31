@@ -698,10 +698,6 @@ a::after{
     fill: #ffffff;
 }
 
-.modal-window-button-svg:focus {
-    fill: #ffffff;
-}
-
 .modal-window-form-div{
     margin-bottom: 8px;
 }
