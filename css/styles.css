@@ -774,6 +774,12 @@ a::after{
     margin-bottom: 24px;
 }
 
+.visually-hidden:checked+.modal-window-checkbox-label>.modal-window-checkbox-label-span {
+    background-color: #404bbf;;
+    fill: #F4F4FD;
+    border: none;
+}
+
 .modal-window-checkbox-label{
     font-size: 12px;
     line-height: 1.17;
