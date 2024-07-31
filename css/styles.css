@@ -734,6 +734,10 @@ a::after{
     fill: #4D5AE5;
 }
 
+.modal-window-div-imput:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-window-div-svg{
     position: absolute;
     left: 16px;
