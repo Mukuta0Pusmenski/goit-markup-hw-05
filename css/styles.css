@@ -609,8 +609,8 @@ ul {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 408;
-    min-height: 584;
+    width: 408px;
+    min-height: 584px;
     border-radius: 4px;
     transform: translate(-50%, -50%);
     box-shadow: #fcfcfc;
