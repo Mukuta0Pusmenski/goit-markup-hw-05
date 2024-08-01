@@ -610,7 +610,25 @@ ul {
     gap: 24px;
 }
 
-.form-futter-input {}
+.box-form-label {}
+
+.form-futter-input {
+    width: 246px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.004em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.form-futter-input::placeholder {
+    color: #ffffff;
+}
 
 .form-button {}
 
