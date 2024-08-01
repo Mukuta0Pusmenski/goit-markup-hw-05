@@ -602,5 +602,19 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: ;
+    background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 408;
+    min-height: 584;
+    border-radius: 4px;
+
+    box-shadow: #fcfcfc;
+    background-color: 0px 1px 1px rgba(0, 0, 0, 0.14),0px 1px 3px rgba(0, 0, 0, 0.12),0px 2px 1px rgba(0, 0, 0, 0.2);;
 }
