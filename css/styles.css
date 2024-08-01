@@ -605,6 +605,11 @@ ul {
     color: #ffffff;
 }
 
+.box-form {
+    display: flex;
+    gap: 24px;
+}
+
 .form-futter-input {}
 
 .form-button {}
