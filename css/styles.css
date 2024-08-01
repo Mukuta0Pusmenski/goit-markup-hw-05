@@ -41,8 +41,9 @@ ul {
     margin: 0;
 }
 
-a::after{
+.current::after {
     content: '';
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -78,12 +79,6 @@ a::after{
 
 }
 
-.current{
-    color: #404BBF;
-}
-
-
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -92,6 +87,29 @@ a::after{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+}
+
+.header-navigation-content.current {
+    position: relative;
+}
+
+.header-navigation-content.current::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+}
+
+.header-navigation-content.current:hover {
+    color: #404bbf;
+}
+
+.header-navigation-content.current:focus {
+    color: #404bbf;
 }
 
 .header-logo-color {
@@ -222,7 +240,7 @@ a::after{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-dop{}
+.button-dop {}
 
 .information-button:hover {
     background-color: #404BBF;
@@ -281,7 +299,7 @@ a::after{
     width: calc((100% - 72px) / 4);
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -357,19 +375,20 @@ a::after{
 .team-information-paragraf {
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
 }
 
-.social-networks{
+.social-networks {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.social-networks-point{
+.social-networks-point {
     width: 40px;
     height: 40px;
 }
@@ -378,7 +397,7 @@ a::after{
     background-color: #404bbf;
 }
 
-.social-networks-comtent{
+.social-networks-comtent {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -388,11 +407,12 @@ a::after{
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-networks-comtent:hover{
+
+.social-networks-comtent:hover {
     background-color: #404bbf;
 }
 
-.social-networks-svg{
+.social-networks-svg {
     fill: #f4f4fd;
 }
 
@@ -420,7 +440,7 @@ a::after{
     row-gap: 48px;
 }
 
-.portfolio-lis:hover{
+.portfolio-lis:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -435,12 +455,12 @@ a::after{
     transform: translateY(0%);
 }
 
-.icons-program{
+.icons-program {
     position: relative;
     overflow: hidden;
 }
 
-.icons-program-paragraf{
+.icons-program-paragraf {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -455,7 +475,7 @@ a::after{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-design:hover{
+.portfolio-design:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -487,11 +507,11 @@ a::after{
 /* -=- */
 /* footer */
 
-.footer-icon-seting{
+.footer-icon-seting {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-wrapper{
+.footer-wrapper {
     display: flex;
     align-items: baseline;
 }
@@ -501,7 +521,7 @@ a::after{
     padding: 100px 0;
 }
 
-.footer-content{
+.footer-content {
     margin-right: 120px;
 }
 
@@ -527,30 +547,30 @@ a::after{
     color: #f4f4fd;
 }
 
-.social-network-footer{}
+.social-network-footer {}
 
-.container{}
+.container {}
 
-.social-network-paragraf{
+.social-network-paragraf {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
-.social-network-content{
+.social-network-content {
     display: flex;
     gap: 16px;
 }
 
-.social-network-point{
+.social-network-point {
     width: 40px;
     height: 40px;
 }
 
-.social-network-point-a{
+.social-network-point-a {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -561,15 +581,15 @@ a::after{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-point-a:hover{
+.social-network-point-a:hover {
     background-color: #31d0aa;
 }
 
-.social-network-point-a:focus{
+.social-network-point-a:focus {
     background-color: #31d0aa;
 }
 
-.social-network-icon{
+.social-network-icon {
     fill: #f4f4fd;
 }
 
