@@ -799,11 +799,9 @@ ul {
     margin-bottom: 24px;
 }
 
-.input-checbox
-
-.input-checbox:checked+.checkbox-label>.label-span {
+.visually-hidden:checked+.checkbox-label>.label-span {
     background-color: #404bbf;
-    fillP: #F4F4FD;
+    fill:#F4F4FD;
     border: none;
 }
 
