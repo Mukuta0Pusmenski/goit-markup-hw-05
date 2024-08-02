@@ -635,6 +635,9 @@ ul {
     border: none;
     border-radius: 4px;
 }
+.form-div{
+    margin-bottom: 8px;
+}
 
 .form-button-svg {
     margin-left: 16px;
@@ -680,7 +683,6 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     padding: 0;
-    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -737,6 +739,7 @@ ul {
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .div-input:focus {
@@ -812,6 +815,9 @@ ul {
 
 .label-href {
     color: #4d5ae5;;
+}
+.div-label {
+    
 }
 
 /* -=- */
